@@ -3,21 +3,91 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Happy Birthday My Rooh 💖</title>
-  <link rel="stylesheet" href="style.css" />
-  <script defer src="script.js"></script>
+  <title>Happy Birthday My Love 💖</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom right, #141e30, #243b55);
+      color: white;
+      font-family: 'Open Sans', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .container {
+      max-width: 800px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      margin-bottom: 10px;
+      color: #ffb6c1;
+      animation: pulse 2s infinite;
+    }
+
+    p {
+      font-size: 1.2em;
+      line-height: 1.8em;
+      margin: 15px 0;
+      animation: slideUp 2s ease;
+    }
+
+    .nicknames {
+      font-style: italic;
+      font-size: 1.1em;
+      margin-top: 10px;
+      color: #ffd1dc;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes slideUp {
+      from { transform: translateY(30px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
 </head>
 <body>
   <div class="container">
-    <img src="images/avatar.jpg" alt="Happy Birthday" class="avatar" />
-    <h1>Happy Birthday, My Love! 🎂</h1>
-    <p class="intro">
-      To my <span id="nickname">queen of my heart</span>, this is your day! 💫
-    </p>
-    <p class="message">
-      You're my <strong>mii jaanah</strong>, my <strong>begum</strong>, my <strong>mii princess</strong>, my <strong>shahzadii</strong> — my everything.
-      Every moment with you is a blessing. Here's a little surprise for you! 🌟
-    </p>
+    <h1>Happy Birthday My Queen 💖</h1>
+
+    <p>To my <strong>mii jaanah, mii begumm, begum jiii, shahzadii, mii princess, queen of my heart</strong> —</p>
+
+    <p>My <span class="nicknames">mera bachaa, mera putrr, mera betaa, mii babay</span>,</p>
+
+    <p>Today, the stars shine brighter... the sky looks happier...<br>
+    Because it’s the birthday of the most beautiful soul in my life — <strong>YOU</strong>.</p>
+
+    <p>You are my dream, my home, my forever. <br>
+    May your smile never fade, may your heart always stay light, <br>
+    and may every dream you ever hold, take flight.</p>
+
+    <p>I thank Allah every day for blessing me with you. <br>
+    Happy Birthday, my love. <br>
+    I love you more than words, more than stars, more than time. Always yours.</p>
+
+    <p style="margin-top: 30px;">💗 Forever your <strong>Mueez</strong></p>
   </div>
 </body>
 </html>
